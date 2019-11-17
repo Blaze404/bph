@@ -60,9 +60,6 @@
   </div>
                 
 
-     
-        
-
         <script>
         
         window.onload = _ => {
@@ -170,7 +167,11 @@
                     
                     //  $('canvas').css("visibility", "visible");
                     setTimeout(function(){
-                        $('body').animate({backgroundColor:'#068eb8'});
+
+                        $('#gradient').css({
+                            background: "-webkit-gradient(linear, left top, right top, from(#355bb5),to(#2a50a8))"}).css({
+                            background: "-moz-linear-gradient(left, #355bb5 0%, #2a50a8 100%)"});
+                        
                     }, 200)
                     $('#loader').fadeOut(200);
                      requestAnimationFrame (animate);
@@ -178,7 +179,6 @@
                  3000);
                 }
                 $('#loader').animate({height:"100%"},3000);
-                
                 
                 $(function() {
                     $('.intro').addClass('go');
