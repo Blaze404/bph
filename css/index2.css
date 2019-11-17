@@ -1,0 +1,86 @@
+
+    body {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #262626;
+        }
+
+        canvas {
+        position: absolute;
+        left: -12vw;
+        bottom: 0;
+
+        /* border: 1px solid white; */
+
+        width: 50%;
+        height: 50%;
+        }
+
+        #flameparticle {
+        display: none;
+        }
+        #loader{
+            position: absolute;
+            left: 0;
+            top: 0;
+            min-width: 5px;
+            
+            background-color: red;
+        }
+       #loader-bottom{
+        position: absolute;
+            left: 0;
+            top: 100%;
+    }
+
+    .wrapper {
+        position: relative;
+        width: 50%;
+        margin: 10px auto;
+        padding-bottom: 20%;
+        border: 10px solid #222;
+      }
+      
+      svg {
+        position: absolute;
+        /* display: block; */
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+      }
+
+        #coming-g path:nth-child(1){
+            stroke-dasharray: 4px;
+        }
+        #coming-g path:nth-child(2){
+            stroke-dasharray: 400px;
+        }
+        #coming-soon path:nth-child(3){
+            
+        }
+        #coming-soon path:nth-child(4){
+            
+        }
+        #coming-soon path:nth-child(5){
+            
+        }
+        #coming-soon path:nth-child(6){
+            
+        }
+        #coming-soon path:nth-child(7){
+            
+        }
+        #coming-soon path:nth-child(8){
+            
+        }
+        #coming-soon path:nth-child(9){
+            
+        }
+        #coming-soon path:nth-child(10){
+            
+        }
+        
