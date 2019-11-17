@@ -1,0 +1,13 @@
+body{
+    margin: 0px;
+    padding:0px;
+}
+
+.wrapper{
+    min-height: 100vh;
+    height: 100vh;
+    background-color: black;
+}
+h4{
+    
+}

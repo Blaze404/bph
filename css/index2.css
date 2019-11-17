@@ -1,4 +1,20 @@
-
+.img-fluid{
+    height: 40vh;
+    margin: auto;
+}
+.image-container{
+    width: fit-content;
+    margin: 0px auto;
+}
+.body-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    /* text-align: center; */
+    margin: auto;
+}
+    
     body {
         position: absolute;
         width: 100%;
@@ -41,7 +57,7 @@
         width: 50%;
         margin: 10px auto;
         padding-bottom: 20%;
-        border: 10px solid #222;
+        /* border: 10px solid #222; */
       }
       
       svg {
@@ -84,3 +100,9 @@
             
         }
         
+        @media screen and (max-width: 425px) {
+            .img-fluid {
+                height: 25vh;
+                margin: auto;
+            }
+          }
