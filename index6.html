@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+    
+    body{
+  color:white;
+  font-weight:bold;
+  letter-spacing:0.1rem;
+  font-family: 'Montserrat',sans-serif;
+  background: #141E30; 
+  background: -webkit-linear-gradient(to    right, #243B55, #141E30);  
+  background: radial-gradient(#243B55, #141E30); 
+  margin:0px;
+  padding:0px;
+}
+.wrapper{
+  min-height:100vh;
+}
+.navbar{
+  background-color:transperant;
+  padding:2rem 4rem;
+  display:flex;
+  justify-content:space-between;
+}
+.menu-item ul{
+  margin:0px 15px;
+  list-style:none;
+  display:flex;
+}
+.menu-item ul li{
+  margin:0px 10px;
+}
+.menu-item ul li:hover{
+  color:#3EC79B;
+  cursor:pointer;
+}
+.coming-soon{
+/*   background-color:black; */
+  width:100vw;
+  display:flex;
+/*   background-color:black; */
+/*   margin-top:5rem; */
+  margin-top:15%;
+}
+.coming-soon h4{
+  margin-top:auto;
+/* padding:0px 2px !important; */
+  margin:0px 2rem !important;
+}
+.coming-soon .heading{
+  margin:auto;
+/*   background-color:black; */
+  font-size:9rem;
+}
+.form-wrapper{
+  margin:auto;
+  margin-top:2rem;
+}
+.form{
+/*   margin-top:1rem; */
+  font-family:'Montserrat' !important;
+/*   background-color:black; */
+  display:flex;
+  margin:auto;
+}
+.input-mail{
+  margin:auto;
+  font-size:1rem;
+  font-family:'Montserrat' !important;
+  padding:1rem 2.5rem;
+  font-weight:bold;
+  border-radius:1.5rem;
+  outline:none;
+  border:0px solid white;
+}
+.notify-me-btn{
+  color:white;
+  background-color:#3EC79B;
+  border:none;
+  outline:none;
+  font-family:'Montserrat' !important;
+  font-weight:bold;
+  font-size:1rem;
+  padding:1rem 2.5rem;
+  border-radius:1.5rem;
+}
+    </style>
+
+    <script src="scripts/three.r92.min.js"></script>
+    <script src="scripts/vanta.dots.min.js"></script>
+
+</head>
+<body>
+
+        <div class="wrapper">
+
+                <div class="navbar">
+                   <div class="logo">
+                     Logo
+                   </div>
+                   <div class="menu-item">
+                     <ul>
+                       <li>Home</li>
+                       <li>About us</li>
+                       <li>Contact us</li>
+                     </ul>
+                   </div>
+                </div>
+                <div class="coming-soon">
+                  <div class="heading">
+              <!--       <h4>Hey Guys! We are</h4> -->
+                    <h4>COMING SOON</h4>
+              <!--       <h4>Wings 2020</h4> -->
+                  </div>
+            
+            
+                </div>
+              <!--   <div class="quote">
+                    <p>Intellegance with ambitions</p>
+                  </div> -->
+                <div class="form">
+                  <div class="form-wrapper">
+                  <input  class="input-mail" type="text" placeholder="Eg. yourmail@mail.com">
+                  <button type="submit" class="notify-me-btn"> Notify me</button>
+                  </div>
+                </div>
+              </div>
+
+              <script>
+              
+              VANTA.DOTS({ el: ".wrapper" }) 
+              </script>
+    
+</body>
+</html>
